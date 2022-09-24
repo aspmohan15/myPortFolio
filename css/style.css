@@ -358,6 +358,10 @@ img {
 
 /* skills */
 
+/* .skills {
+  width: 90%;
+} */
+
 .skills_image {
   right: 0;
   bottom: 0;
@@ -421,17 +425,19 @@ img {
 }
 
 .skill_css {
-  width: 85%;
+  width: 99%;
 }
 
 .skill_js {
-  width: 70%;
+  width: 90%;
 }
 
 .skill_react {
-  width: 65%;
+  width: 90%;
 }
-
+.skill_node {
+  width: 70%;
+}
 .skill_ui {
   width: 75%;
 }
@@ -468,6 +474,14 @@ img {
 
 .education_img img:hover {
   transform: scale(1.1);
+}
+
+/* projects */
+
+.project_description {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 4%;
 }
 
 .control_input {
@@ -519,7 +533,13 @@ img {
 .developed-by {
   color: #6a66f9;
 }
-
+/* .contact {
+  width: 90%;
+} */
+.contact_form {
+  width: 90%;
+  /* width: 400px; */
+}
 @media screen and (min-width: 768px) {
   body {
     margin: auto;
@@ -576,9 +596,9 @@ img {
   .home_img img {
     width: 100%;
   }
-  .about {
+  /* .about {
     width: 90%;
-  }
+  } */
   .about_container {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
@@ -598,11 +618,14 @@ img {
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
   }
+
   .contact_form {
-    width: 400px;
+    width: 90%;
+    /* width: 400px; */
   }
   .contact_container {
     justify-items: center;
+    /* width: 50% !important; */
   }
 }
 
@@ -619,5 +642,9 @@ img {
     justify-content: space-between;
     justify-content: center;
     align-items: center;
+  }
+  .contact_form {
+    width: 90%;
+    /* width: 400px; */
   }
 }
