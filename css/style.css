@@ -637,6 +637,7 @@ img {
   .home_img {
     width: 450px;
     right: 10%;
+    top: 14%;
   }
   .about_text_para {
     justify-content: space-between;
